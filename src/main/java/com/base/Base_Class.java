@@ -263,7 +263,9 @@ public abstract class Base_Class {
             js.executeScript(script, (Object) args);
 
         }catch (Exception e){
+            System.out.println("kishore");
             Assert.fail("ERROR : OCCURRED DURING JS EXECUTION");
         }
     }
+
 }
